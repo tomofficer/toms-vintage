@@ -1,0 +1,29 @@
+.header-container {
+  margin-top: 100px;
+}
+
+.header-container::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #e8effa;
+  z-index: 1;
+}
+
+.header-container h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container img {
+  width: 310px;
+}
+
+.header-container span {
+  margin-top: 20px;
+  font-size: 29px;
+}
